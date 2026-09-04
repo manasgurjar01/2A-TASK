@@ -1,0 +1,93 @@
+GIT BASIC COMMANDS
+------------------
+
+git --version
+→ Git ka installed version check karne ke liye.
+
+
+git config --global user.name "Your Name"
+→ Git me apna username set karne ke liye.
+
+
+git config --global user.email "you@example.com"
+→ Git me apni email set karne ke liye.
+
+
+git config --list
+→ Git ki configuration dekhne ke liye.
+
+
+git init
+→ Current folder me new Git repository create karne ke liye.
+
+
+git status
+→ Working directory aur Git changes ka status dekhne ke liye.
+
+
+git add <file-name>
+→ Specific file ko staging area me add karne ke liye.
+
+
+git add .
+→ Saari changed files ko staging area me add karne ke liye.
+
+
+git commit -m "message"
+→ Staged changes ka snapshot/commit create karne ke liye.
+
+
+git log
+→ Commit history dekhne ke liye.
+
+
+git log --oneline
+→ Commit history short format me dekhne ke liye.
+
+
+git diff
+→ Working files aur last commit ke beech changes dekhne ke liye.
+
+
+git clone <repository-url>
+→ GitHub/remote repository ki copy local computer par download karne ke liye.
+
+
+git remote -v
+→ Remote repository ki URL dekhne ke liye.
+
+
+git remote add origin <repository-url>
+→ Local repository ko remote GitHub repository se connect karne ke liye.
+
+
+git push
+→ Local commits ko remote repository par upload karne ke liye.
+
+
+git push origin main
+→ Local main branch ko GitHub par push karne ke liye.
+
+
+git pull
+→ Remote repository ke latest changes ko download karke current branch me merge karne ke liye.
+
+
+git fetch
+→ Remote ke latest changes download karne ke liye, bina current branch me merge kiye.
+
+
+git restore <file-name>
+→ File ke unstaged changes ko discard karne ke liye.
+
+
+git restore --staged <file-name>
+→ Staged file ko staging area se remove karne ke liye.
+
+
+git rm <file-name>
+→ File ko Git tracking aur working directory se remove karne ke liye.
+
+
+git mv <old-name> <new-name>
+→ Git ke through file ka naam change/move karne ke liye.

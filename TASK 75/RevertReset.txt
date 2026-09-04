@@ -1,0 +1,43 @@
+GIT RESET
+-----------
+
+git reset HEAD~1
+→ Last commit ko undo karta hai, changes files me rehte hain.
+
+git reset --soft HEAD~1
+→ Last commit undo karta hai, changes staged rehte hain.
+
+git reset --mixed HEAD~1
+→ Last commit undo karta hai, changes unstaged ho jate hain.
+
+git reset --hard HEAD~1
+→ Last commit aur uske changes ko remove karta hai.
+
+
+GIT REVERT
+-----------
+
+git revert HEAD
+→ Last commit ko undo karne ke liye ek naya commit banata hai.
+
+git revert <commit-id>
+→ Specific commit ke changes ko undo karne ke liye naya commit banata hai.
+
+
+USEFUL COMMANDS
+---------------
+
+git log --oneline
+→ Commit IDs/history dekhne ke liye.
+
+git show <commit-id>
+→ Specific commit ki details dekhne ke liye.
+
+HEAD
+→ Current/latest commit ko represent karta hai.
+
+HEAD~1
+→ Current commit se ek commit piche.
+
+HEAD~2
+→ Current commit se do commits piche.

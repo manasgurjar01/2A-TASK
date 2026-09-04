@@ -1,0 +1,16 @@
+.game {
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card {
+  height: 80px;
+  background: gray;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+  cursor: pointer;
+}

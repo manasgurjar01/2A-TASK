@@ -1,0 +1,81 @@
+GIT IGNORE
+----------
+
+.gitignore
+→ Git ko batata hai ki kin files/folders ko track nahi karna hai.
+
+
+FILE IGNORE
+-----------
+
+filename.txt
+→ Specific file ko ignore karne ke liye.
+
+.env
+→ .env file ko ignore karne ke liye.
+
+
+FOLDER IGNORE
+-------------
+
+folder/
+→ Pura folder ignore karne ke liye.
+
+node_modules/
+→ node_modules folder ko ignore karne ke liye.
+
+
+EXTENSION IGNORE
+----------------
+
+*.log
+→ Sabhi .log files ko ignore karne ke liye.
+
+*.txt
+→ Sabhi .txt files ko ignore karne ke liye.
+
+
+ROOT FILE/FOLDER
+----------------
+
+/test.txt
+→ Sirf root folder ki test.txt file ko ignore karta hai.
+
+/temp/
+→ Sirf root folder ke temp folder ko ignore karta hai.
+
+
+EXCEPTION
+---------
+
+!important.txt
+→ Ignore ki hui file ko wapas include karne ke liye.
+
+
+COMMENT
+-------
+
+# comment
+→ .gitignore file me comment likhne ke liye.
+
+
+COMMON EXAMPLE
+--------------
+
+node_modules/
+.env
+*.log
+dist/
+build/
+temp/
+
+
+CHECK IGNORE
+------------
+
+git status
+→ Check karne ke liye ki file Git me track ho rahi hai ya ignore.
+
+
+git check-ignore -v filename
+→ Check karne ke liye ki koi file ignore kyu ho rahi hai.

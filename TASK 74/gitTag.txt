@@ -1,0 +1,29 @@
+# Tag create
+git tag v1.0.0
+
+# Annotated tag
+git tag -a v1.0.0 -m "First release"
+
+# Tags list
+git tag
+
+# Tag details
+git show v1.0.0
+
+# Specific commit par tag
+git tag v1.0.0 <commit-id>
+
+# Tag GitHub par push
+git push origin v1.0.0
+
+# All tags push
+git push origin --tags
+
+# Remote tags fetch
+git fetch --tags
+
+# Local tag delete
+git tag -d v1.0.0
+
+# Remote tag delete
+git push origin --delete v1.0.0

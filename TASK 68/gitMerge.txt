@@ -1,0 +1,52 @@
+GIT MERGE
+----------
+
+git merge <branch-name>
+→ Current branch me doosri branch ke changes merge karne ke liye.
+
+git merge main
+→ Current branch me main branch ke changes merge karne ke liye.
+
+git merge feature
+→ Current branch me feature branch ke changes merge karne ke liye.
+
+
+MERGE CONFLICT
+--------------
+
+git status
+→ Merge conflict wali files dekhne ke liye.
+
+git add .
+→ Conflict resolve karne ke baad files ko stage karne ke liye.
+
+git commit
+→ Merge complete karne ke liye.
+
+
+ABORT MERGE
+-----------
+
+git merge --abort
+→ Ongoing merge ko cancel karke merge se pehle wali state me wapas jane ke liye.
+
+
+FAST-FORWARD MERGE
+------------------
+
+git merge <branch-name>
+→ Agar conflict/history difference nahi hai to Git directly branch pointer ko aage move kar deta hai.
+
+
+NO-FAST-FORWARD MERGE
+---------------------
+
+git merge --no-ff <branch-name>
+→ Hamesha ek separate merge commit create karne ke liye.
+
+
+REMOTE CHANGES MERGE
+--------------------
+
+git pull
+→ Remote repository ke changes fetch karke current branch me merge karne ke liye.

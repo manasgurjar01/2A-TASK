@@ -1,0 +1,66 @@
+PULL REQUEST (PR)
+-----------------
+
+Pull Request
+→ Apne branch ke changes ko kisi doosri branch me merge karne ke liye request.
+
+git push -u origin <branch-name>
+→ Apni branch ko GitHub par push karne ke liye.
+
+Create Pull Request
+→ GitHub par apni branch se target branch (usually main) me changes merge karne ki request create karne ke liye.
+
+
+PULL REQUEST FLOW
+-----------------
+
+git switch -c feature
+→ New feature branch create karke us par switch.
+
+git add .
+→ Changes staging area me add.
+
+git commit -m "Add feature"
+→ Changes ka commit create.
+
+git push -u origin feature
+→ Feature branch ko GitHub par push.
+
+GitHub → Pull Request
+→ Feature branch se main branch me merge karne ki request.
+
+
+PULL REQUEST REVIEW
+-------------------
+
+Review
+→ Team member code ko check karta hai.
+
+Comment
+→ Code ke baare me feedback/comment diya ja sakta hai.
+
+Approve
+→ Reviewer changes ko approve karta hai.
+
+Request Changes
+→ Changes me correction karne ke liye kaha jata hai.
+
+Merge
+→ Approved Pull Request ko target branch me merge kiya jata hai.
+
+
+PULL REQUEST MERGE
+------------------
+
+Merge Pull Request
+→ Pull Request ke changes ko target branch me merge karne ke liye.
+
+Delete Branch
+→ Merge ke baad feature branch ko delete karne ke liye.
+
+
+IMPORTANT
+---------
+
+Pull Request Git command nahi hai.
+→ Pull Request mainly GitHub/GitLab jaise platforms par create/manage kiya jata hai.

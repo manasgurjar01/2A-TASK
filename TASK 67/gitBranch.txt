@@ -1,0 +1,65 @@
+GIT BRANCH
+-----------
+
+git branch
+→ Saari local branches dekhne ke liye.
+
+git branch <branch-name>
+→ New branch create karne ke liye.
+
+git switch <branch-name>
+→ Existing branch par switch karne ke liye.
+
+git switch -c <branch-name>
+→ New branch create karke usi par switch karne ke liye.
+
+git checkout <branch-name>
+→ Existing branch par switch karne ke liye.
+
+git checkout -b <branch-name>
+→ New branch create karke usi par switch karne ke liye.
+
+git branch -d <branch-name>
+→ Local branch delete karne ke liye.
+
+git branch -D <branch-name>
+→ Local branch force delete karne ke liye.
+
+git branch -m <new-name>
+→ Current branch ka naam change karne ke liye.
+
+
+REMOTE BRANCH
+--------------
+
+git branch -r
+→ Remote branches dekhne ke liye.
+
+git branch -a
+→ Local + remote dono branches dekhne ke liye.
+
+git push origin <branch-name>
+→ Branch ko GitHub par push karne ke liye.
+
+git push -u origin <branch-name>
+→ Branch ko GitHub par push karke upstream set karne ke liye.
+
+git push origin --delete <branch-name>
+→ GitHub se remote branch delete karne ke liye.
+
+
+BRANCH MERGE
+------------
+
+git merge <branch-name>
+→ Current branch me doosri branch ke changes merge karne ke liye.
+
+
+BRANCH STATUS
+-------------
+
+git status
+→ Current branch aur working changes ki information dekhne ke liye.
+
+git log --oneline --graph --all
+→ Branches aur commits ka graphical history dekhne ke liye.
