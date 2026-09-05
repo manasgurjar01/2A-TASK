@@ -2,7 +2,6 @@ let btn = document.querySelector("#btn");
 let result = document.querySelector("#result");
 
 btn.addEventListener("click", () => {
-
   let input = document.querySelector("#input").value;
 
   let arr = input.split(",");
