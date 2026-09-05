@@ -13,4 +13,5 @@ fetch("https://jsonplaceholder.typicode.com/abc")
   })
   .catch((error) => {
     console.log("Failed to load data");
+    users.innerHTML = 'Failed to load data';
   });
