@@ -4,7 +4,7 @@ let result = document.querySelector("#result");
 btn.addEventListener("click", () => {
   let input = document.querySelector("#input").value;
 
-  let arr = input.split(",");
+  let arr = input.split(" ");
 
   let numbers = arr.map((value) => {
     return Number(value);
