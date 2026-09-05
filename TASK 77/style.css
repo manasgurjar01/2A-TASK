@@ -14,8 +14,6 @@ h1 {
   margin: 30px;
 }
 
-/* Filter */
-
 .filter {
   text-align: center;
   margin-bottom: 30px;
@@ -30,8 +28,6 @@ h1 {
   padding: 8px 15px;
   font-size: 16px;
 }
-
-/* Products */
 
 .products {
   display: flex;
